@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>Meteo</title>
+</head>
+<body>
+<h1>Temperature at:</h1>
+<h1>{{ city }}</h1>
+<h1>{{ country }}</h1>
+<h2>{{ temperature }} &#8451;</h2>
+<h1>Air conditions:</h1>
+<h1>Index - {{ air_quality_index }}</h1>
+<h1>Air quality - {{ air_quality }} &#8451;</h1>
+<p>
+    <button class="button" onclick="location.href='.'">Your location</button>
+    <button class="button" onclick="location.href='./random'">Random place</button>
+</p>
+</body>
+</html>
