@@ -8,12 +8,14 @@
 </head>
 <body>
 <h1>Temperature at:</h1>
-<h1>{{ city }}</h1>
-<h1>{{ country }}</h1>
-<h2>{{ temperature }} &#8451;</h2>
+<div id="temperature">
+    <h1>{{ city }}</h1>
+    <h1>{{ country }}</h1>
+    <h2>{{ temperature }} &#8451;</h2>
+</div>
 <h1>Air conditions:</h1>
-<h1>Index - {{ air_quality_index }}</h1>
-<h1>Air quality - {{ air_quality }} &#8451;</h1>
+<h2>Index - {{ air_quality_index }}</h2>
+<h2>Air quality - {{ air_quality_definition }}</h2>
 <p>
     <button class="button" onclick="location.href='.'">Your location</button>
     <button class="button" onclick="location.href='./random'">Random place</button>
